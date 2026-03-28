@@ -1,0 +1,27 @@
+{
+    "name": "workflow-plugin-deployment",
+    "version": "0.1.0",
+    "description": "Deployment pipeline steps: rolling, blue-green, canary, verify, rollback, container_build",
+    "author": "GoCodeAlone",
+    "license": "MIT",
+    "type": "external",
+    "tier": "community",
+    "minEngineVersion": "0.5.0",
+    "keywords": ["deployment", "rolling", "blue-green", "canary", "container"],
+    "homepage": "https://github.com/GoCodeAlone/workflow-plugin-deployment",
+    "repository": "https://github.com/GoCodeAlone/workflow-plugin-deployment",
+    "capabilities": {
+        "configProvider": false,
+        "moduleTypes": [],
+        "stepTypes": [
+            "step.deploy",
+            "step.deploy_rolling",
+            "step.deploy_blue_green",
+            "step.deploy_canary",
+            "step.deploy_verify",
+            "step.deploy_rollback",
+            "step.container_build"
+        ],
+        "triggerTypes": []
+    }
+}
